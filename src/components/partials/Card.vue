@@ -50,13 +50,14 @@ import cards from '../../data/cards';
   height: 250px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 6px;
   background-color: $blue-hover;
-
+  position: relative;
   &:hover {
     .image img, .number {
       opacity: 1;
     }   
   }
   .image {
+    object-position: center;
     img {
       opacity: .7;
     }
